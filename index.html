@@ -1,328 +1,405 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magno Torres Carvalho - Currículo</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-    <!-- Theme Toggle Button -->
-    <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
-        <i class="fas fa-moon"></i>
-        <i class="fas fa-sun"></i>
-    </button>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Magno Torres Carvalho - Currículo</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<!-- Theme Toggle Button -->
+		<button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+			<i class="fas fa-moon"></i>
+			<i class="fas fa-sun"></i>
+		</button>
 
-    <!-- Header Section -->
-    <header class="header" id="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="profile-info">
-                    <div class="profile-image">
-                        <div class="profile-placeholder">
-                            <i class="fas fa-user"></i>
-                        </div>
-                    </div>
-                    <div class="profile-details">
-                        <h1 class="name">Magno Torres Carvalho</h1>
-                        <p class="title">Engenheiro Mecânico | Doutor em Ciência dos Materiais</p>
-                        <p class="location">
-                            <i class="fas fa-map-marker-alt"></i>
-                            Duque de Caxias, Rio de Janeiro
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:magnotorres7@ime.eb.br">magnotorres7@ime.eb.br</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <a href="tel:+5521977068004">+55 (21) 970698004</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/Magno-Torres" target="_blank">LinkedIn</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span>05 Jan 1993</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+		<!-- Header Section -->
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header-content">
+					<div class="profile-info">
+						<div class="profile-image">
+							<img
+								src="foto.jpeg"
+								alt="Foto de Magno Torres Carvalho"
+								class="profile-photo"
+							/>
+						</div>
+						<div class="profile-details">
+							<h1 class="name">Magno Torres Carvalho</h1>
+							<p class="title">
+								Engenheiro Mecânico | Doutor em Ciência dos Materiais
+							</p>
+							<p class="location">
+								<i class="fas fa-map-marker-alt"></i>
+								Duque de Caxias, Rio de Janeiro
+							</p>
+						</div>
+					</div>
 
-    <!-- Main Content -->
-    <main class="main">
-        <div class="container">
-            
-            <!-- Perfil Section -->
-            <section class="section" id="perfil">
-                <div class="section-header" onclick="toggleSection('perfil')">
-                    <h2 class="section-title">
-                        <i class="fas fa-user-circle"></i>
-                        Perfil Profissional
-                    </h2>
-                    <i class="fas fa-chevron-down toggle-icon"></i>
-                </div>
-                <div class="section-content">
-                    <p class="profile-description">
-                        Engenheiro Mecânico, mestre em Ciência dos Materiais e doutorando pelo IME, com 6 anos de
-                        experiência em pesquisa e desenvolvimento, especializado no comportamento mecânico de
-                        materiais compósitos. Experiência sólida no setor metalúrgico, com atuação em garantia da
-                        qualidade, mapeamento de processos e melhoria contínua. Proficiente em caracterização de
-                        materiais, inovação tecnológica e resolução de problemas que exigem forte capacidade analítica.
-                    </p>
-                </div>
-            </section>
+					<div class="contact-info">
+						<div class="contact-item">
+							<i class="fas fa-envelope"></i>
+							<a href="mailto:magnotorres7@ime.eb.br">magnotorres7@ime.eb.br</a>
+						</div>
+						<div class="contact-item">
+							<i class="fas fa-phone"></i>
+							<a href="tel:+5521977068004">+55 (21) 970698004</a>
+						</div>
+						<div class="contact-item">
+							<i class="fab fa-linkedin"></i>
+							<a href="https://www.linkedin.com/in/Magno-Torres" target="_blank"
+								>LinkedIn</a
+							>
+						</div>
+						<div class="contact-item">
+							<i class="fas fa-calendar-alt"></i>
+							<span>05 Jan 1993</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-            <!-- Experiência Profissional -->
-            <section class="section" id="experiencia">
-                <div class="section-header" onclick="toggleSection('experiencia')">
-                    <h2 class="section-title">
-                        <i class="fas fa-briefcase"></i>
-                        Experiência Profissional
-                    </h2>
-                    <i class="fas fa-chevron-down toggle-icon"></i>
-                </div>
-                <div class="section-content">
-                    <div class="experience-timeline">
-                        
-                        <div class="experience-item">
-                            <div class="experience-date">Nov 2024 – Mai 2025</div>
-                            <div class="experience-details">
-                                <h3 class="job-title">Engenheiro de Pesquisa e Desenvolvimento</h3>
-                                <h4 class="company">Universidade da Califórnia, San Diego</h4>
-                                <p class="job-location">Califórnia, Estados Unidos</p>
-                                <ul class="job-responsibilities">
-                                    <li>Liderar projetos de P&D desde o conceito até a qualificação, integrando equipes multidisciplinares e gerenciando cronogramas, recursos e homologações.</li>
-                                    <li>Desenvolver protótipos e modelos de materiais/processos, validando desempenho por meio de ensaios mecânicos e análise de falhas.</li>
-                                    <li>Elaborar FMEA e conduzir análises de risco, prevenindo pontos de falha críticos e garantindo conformidade com normas aeroespaciais.</li>
-                                    <li>Criar e otimizar protocolos de teste e metodologias experimentais, aprimorando eficiência e reprodutibilidade.</li>
-                                    <li>Colaborar com áreas como produção, qualidade e certificação, assegurando transição de protótipos ao produto final.</li>
-                                </ul>
-                            </div>
-                        </div>
+		<!-- Main Content -->
+		<main class="main">
+			<div class="container">
+				<!-- Perfil Section -->
+				<section class="section" id="perfil">
+					<div class="section-header" onclick="toggleSection('perfil')">
+						<h2 class="section-title">
+							<i class="fas fa-user-circle"></i>
+							Perfil Profissional
+						</h2>
+						<i class="fas fa-chevron-down toggle-icon"></i>
+					</div>
+					<div class="section-content">
+						<p class="profile-description">
+							Engenheiro Mecânico, mestre em Ciência dos Materiais e doutorando
+							pelo IME, com 6 anos de experiência em pesquisa e desenvolvimento,
+							especializado no comportamento mecânico de materiais compósitos.
+							Experiência sólida no setor metalúrgico, com atuação em garantia
+							da qualidade, mapeamento de processos e melhoria contínua.
+							Proficiente em caracterização de materiais, inovação tecnológica e
+							resolução de problemas que exigem forte capacidade analítica.
+						</p>
+					</div>
+				</section>
 
-                        <div class="experience-item">
-                            <div class="experience-date">Dez 2022 – Out 2024</div>
-                            <div class="experience-details">
-                                <h3 class="job-title">Analista de Qualidade Sênior</h3>
-                                <h4 class="company">Brastêmpera Beneficiamento de Metais</h4>
-                                <p class="job-location">Rio de Janeiro, Brasil</p>
-                                <ul class="job-responsibilities">
-                                    <li>Liderar e coordenar auditorias internas e externas de qualidade, atuando como interlocutor com organismos certificadores (ISO 9001, API-6A, CQI-9).</li>
-                                    <li>Gerenciar o Sistema de Gestão da Qualidade (SGQ), elaborando procedimentos e supervisionando rastreabilidade e controle documental.</li>
-                                    <li>Analisar indicadores de qualidade e elaborar relatórios gerenciais, promovendo melhoria contínua através de CAPA, FMEA e APQP/PPAP.</li>
-                                    <li>Supervisionar processos de qualidade, promover princípios Lean e treinar equipes sobre requisitos do SGQ.</li>
-                                </ul>
-                            </div>
-                        </div>
+				<!-- Experiência Profissional -->
+				<section class="section" id="experiencia">
+					<div class="section-header" onclick="toggleSection('experiencia')">
+						<h2 class="section-title">
+							<i class="fas fa-briefcase"></i>
+							Experiência Profissional
+						</h2>
+						<i class="fas fa-chevron-down toggle-icon"></i>
+					</div>
+					<div class="section-content">
+						<div class="experience-timeline">
+							<div class="experience-item">
+								<div class="experience-date">Nov 2024 – Mai 2025</div>
+								<div class="experience-details">
+									<h3 class="job-title">
+										Engenheiro de Pesquisa e Desenvolvimento
+									</h3>
+									<h4 class="company">Universidade da Califórnia, San Diego</h4>
+									<p class="job-location">Califórnia, Estados Unidos</p>
+									<ul class="job-responsibilities">
+										<li>
+											Liderar projetos de P&D desde o conceito até a
+											qualificação, integrando equipes multidisciplinares e
+											gerenciando cronogramas, recursos e homologações.
+										</li>
+										<li>
+											Desenvolver protótipos e modelos de materiais/processos,
+											validando desempenho por meio de ensaios mecânicos e
+											análise de falhas.
+										</li>
+										<li>
+											Elaborar FMEA e conduzir análises de risco, prevenindo
+											pontos de falha críticos e garantindo conformidade com
+											normas aeroespaciais.
+										</li>
+										<li>
+											Criar e otimizar protocolos de teste e metodologias
+											experimentais, aprimorando eficiência e reprodutibilidade.
+										</li>
+										<li>
+											Colaborar com áreas como produção, qualidade e
+											certificação, assegurando transição de protótipos ao
+											produto final.
+										</li>
+									</ul>
+								</div>
+							</div>
 
-                        <div class="experience-item">
-                            <div class="experience-date">2017</div>
-                            <div class="experience-details">
-                                <h3 class="job-title">Estagiário de Engenharia</h3>
-                                <h4 class="company">Ethnos</h4>
-                                <p class="job-location">Duque de Caxias, Brasil</p>
-                                <ul class="job-responsibilities">
-                                    <li>Avaliar e implementar adequações às normas ISO, assegurando conformidade contínua do sistema de gestão da qualidade.</li>
-                                    <li>Apoiar projetos de desenvolvimento de novos produtos, desde pesquisa até lançamento.</li>
-                                    <li>Controlar estoque e planejar produção semanal via SAP, implementar sistema Kanban integrado.</li>
-                                </ul>
-                            </div>
-                        </div>
+							<div class="experience-item">
+								<div class="experience-date">Dez 2022 – Out 2024</div>
+								<div class="experience-details">
+									<h3 class="job-title">Analista de Qualidade Sênior</h3>
+									<h4 class="company">Brastêmpera Beneficiamento de Metais</h4>
+									<p class="job-location">Rio de Janeiro, Brasil</p>
+									<ul class="job-responsibilities">
+										<li>
+											Liderar e coordenar auditorias internas e externas de
+											qualidade, atuando como interlocutor com organismos
+											certificadores (ISO 9001, API-6A, CQI-9).
+										</li>
+										<li>
+											Gerenciar o Sistema de Gestão da Qualidade (SGQ),
+											elaborando procedimentos e supervisionando rastreabilidade
+											e controle documental.
+										</li>
+										<li>
+											Analisar indicadores de qualidade e elaborar relatórios
+											gerenciais, promovendo melhoria contínua através de CAPA,
+											FMEA e APQP/PPAP.
+										</li>
+										<li>
+											Supervisionar processos de qualidade, promover princípios
+											Lean e treinar equipes sobre requisitos do SGQ.
+										</li>
+									</ul>
+								</div>
+							</div>
 
-                        <div class="experience-item">
-                            <div class="experience-date">2017</div>
-                            <div class="experience-details">
-                                <h3 class="job-title">Estagiário de Engenharia</h3>
-                                <h4 class="company">Caixa Econômica Federal</h4>
-                                <p class="job-location">Rio de Janeiro, Brasil</p>
-                                <ul class="job-responsibilities">
-                                    <li>Apoiar a Engenharia de Manutenção em atividades diárias como vistorias e elaboração de relatórios técnicos.</li>
-                                    <li>Monitorar indicadores de manutenção (preventiva, preditiva e corretiva) e estruturar análise de tendências.</li>
-                                </ul>
-                            </div>
-                        </div>
+							<div class="experience-item">
+								<div class="experience-date">2017</div>
+								<div class="experience-details">
+									<h3 class="job-title">Estagiário de Engenharia</h3>
+									<h4 class="company">Ethnos</h4>
+									<p class="job-location">Duque de Caxias, Brasil</p>
+									<ul class="job-responsibilities">
+										<li>
+											Avaliar e implementar adequações às normas ISO,
+											assegurando conformidade contínua do sistema de gestão da
+											qualidade.
+										</li>
+										<li>
+											Apoiar projetos de desenvolvimento de novos produtos,
+											desde pesquisa até lançamento.
+										</li>
+										<li>
+											Controlar estoque e planejar produção semanal via SAP,
+											implementar sistema Kanban integrado.
+										</li>
+									</ul>
+								</div>
+							</div>
 
-                        <div class="experience-item">
-                            <div class="experience-date">2016</div>
-                            <div class="experience-details">
-                                <h3 class="job-title">Estagiário de Engenharia</h3>
-                                <h4 class="company">Teadit</h4>
-                                <p class="job-location">Rio de Janeiro, Brasil</p>
-                                <ul class="job-responsibilities">
-                                    <li>Monitorar indicadores de produção (KPI), acompanhar performance da linha produtiva via SAP.</li>
-                                    <li>Investigar materiais, caracterizar matérias-primas e revisar instruções conforme estudos técnicos.</li>
-                                    <li>Elaborar relatórios técnicos, analisar dados do processo para embasar melhorias contínuas.</li>
-                                </ul>
-                            </div>
-                        </div>
+							<div class="experience-item">
+								<div class="experience-date">2017</div>
+								<div class="experience-details">
+									<h3 class="job-title">Estagiário de Engenharia</h3>
+									<h4 class="company">Caixa Econômica Federal</h4>
+									<p class="job-location">Rio de Janeiro, Brasil</p>
+									<ul class="job-responsibilities">
+										<li>
+											Apoiar a Engenharia de Manutenção em atividades diárias
+											como vistorias e elaboração de relatórios técnicos.
+										</li>
+										<li>
+											Monitorar indicadores de manutenção (preventiva, preditiva
+											e corretiva) e estruturar análise de tendências.
+										</li>
+									</ul>
+								</div>
+							</div>
 
-                    </div>
-                </div>
-            </section>
+							<div class="experience-item">
+								<div class="experience-date">2016</div>
+								<div class="experience-details">
+									<h3 class="job-title">Estagiário de Engenharia</h3>
+									<h4 class="company">Teadit</h4>
+									<p class="job-location">Rio de Janeiro, Brasil</p>
+									<ul class="job-responsibilities">
+										<li>
+											Monitorar indicadores de produção (KPI), acompanhar
+											performance da linha produtiva via SAP.
+										</li>
+										<li>
+											Investigar materiais, caracterizar matérias-primas e
+											revisar instruções conforme estudos técnicos.
+										</li>
+										<li>
+											Elaborar relatórios técnicos, analisar dados do processo
+											para embasar melhorias contínuas.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-            <!-- Formação Acadêmica -->
-            <section class="section" id="formacao">
-                <div class="section-header" onclick="toggleSection('formacao')">
-                    <h2 class="section-title">
-                        <i class="fas fa-graduation-cap"></i>
-                        Formação Acadêmica
-                    </h2>
-                    <i class="fas fa-chevron-down toggle-icon"></i>
-                </div>
-                <div class="section-content">
-                    <div class="education-timeline">
-                        
-                        <div class="education-item">
-                            <div class="education-date">2021 – 2026</div>
-                            <div class="education-details">
-                                <h3 class="degree-title">Doutorado em Ciência dos Materiais</h3>
-                                <h4 class="institution">Instituto Militar de Engenharia</h4>
-                                <p class="education-location">Rio de Janeiro, Brasil</p>
-                                <p class="education-description">
-                                    Ênfase em materiais compósitos poliméricos e materiais biológicos estruturais para aplicações
-                                    balísticas com período sanduíche na Universidade da Califórnia, San Diego - UCSD, com bolsa pelo
-                                    Programa de Doutorado Sanduíche no Exterior (PDSE).
-                                </p>
-                            </div>
-                        </div>
+				<!-- Formação Acadêmica -->
+				<section class="section" id="formacao">
+					<div class="section-header" onclick="toggleSection('formacao')">
+						<h2 class="section-title">
+							<i class="fas fa-graduation-cap"></i>
+							Formação Acadêmica
+						</h2>
+						<i class="fas fa-chevron-down toggle-icon"></i>
+					</div>
+					<div class="section-content">
+						<div class="education-timeline">
+							<div class="education-item">
+								<div class="education-date">2021 – 2026</div>
+								<div class="education-details">
+									<h3 class="degree-title">
+										Doutorado em Ciência dos Materiais
+									</h3>
+									<h4 class="institution">Instituto Militar de Engenharia</h4>
+									<p class="education-location">Rio de Janeiro, Brasil</p>
+									<p class="education-description">
+										Ênfase em materiais compósitos poliméricos e materiais
+										biológicos estruturais para aplicações balísticas com
+										período sanduíche na Universidade da Califórnia, San Diego -
+										UCSD, com bolsa pelo Programa de Doutorado Sanduíche no
+										Exterior (PDSE).
+									</p>
+								</div>
+							</div>
 
-                        <div class="education-item">
-                            <div class="education-date">2022</div>
-                            <div class="education-details">
-                                <h3 class="degree-title">Pós-Graduação em Engenharia da Manutenção e Segurança</h3>
-                                <h4 class="institution">UniBF</h4>
-                                <p class="education-location">Rio de Janeiro, Brasil</p>
-                            </div>
-                        </div>
+							<div class="education-item">
+								<div class="education-date">2022</div>
+								<div class="education-details">
+									<h3 class="degree-title">
+										Pós-Graduação em Engenharia da Manutenção e Segurança
+									</h3>
+									<h4 class="institution">UniBF</h4>
+									<p class="education-location">Rio de Janeiro, Brasil</p>
+								</div>
+							</div>
 
-                        <div class="education-item">
-                            <div class="education-date">2018 – 2020</div>
-                            <div class="education-details">
-                                <h3 class="degree-title">Mestre em Ciência dos Materiais</h3>
-                                <h4 class="institution">Instituto Militar de Engenharia</h4>
-                                <p class="education-location">Rio de Janeiro, Brasil</p>
-                                <p class="education-description">
-                                    Ênfase em blindagens e cerâmicas avançadas de alta resistência ao impacto.
-                                </p>
-                            </div>
-                        </div>
+							<div class="education-item">
+								<div class="education-date">2018 – 2020</div>
+								<div class="education-details">
+									<h3 class="degree-title">Mestre em Ciência dos Materiais</h3>
+									<h4 class="institution">Instituto Militar de Engenharia</h4>
+									<p class="education-location">Rio de Janeiro, Brasil</p>
+									<p class="education-description">
+										Ênfase em blindagens e cerâmicas avançadas de alta
+										resistência ao impacto.
+									</p>
+								</div>
+							</div>
 
-                        <div class="education-item">
-                            <div class="education-date">2012 – 2017</div>
-                            <div class="education-details">
-                                <h3 class="degree-title">Bacharel em Engenharia Mecânica</h3>
-                                <h4 class="institution">Faculdade do Rio de Janeiro - UNIESP S.A</h4>
-                                <p class="education-location">Rio de Janeiro, Brasil</p>
-                            </div>
-                        </div>
+							<div class="education-item">
+								<div class="education-date">2012 – 2017</div>
+								<div class="education-details">
+									<h3 class="degree-title">Bacharel em Engenharia Mecânica</h3>
+									<h4 class="institution">
+										Faculdade do Rio de Janeiro - UNIESP S.A
+									</h4>
+									<p class="education-location">Rio de Janeiro, Brasil</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-                    </div>
-                </div>
-            </section>
+				<!-- Qualificações -->
+				<section class="section" id="qualificacoes">
+					<div class="section-header" onclick="toggleSection('qualificacoes')">
+						<h2 class="section-title">
+							<i class="fas fa-certificate"></i>
+							Qualificações Adicionais
+						</h2>
+						<i class="fas fa-chevron-down toggle-icon"></i>
+					</div>
+					<div class="section-content">
+						<div class="skills-grid">
+							<div class="skill-category">
+								<h4>Pesquisa & Desenvolvimento</h4>
+								<div class="skill-tags">
+									<span class="skill-tag">P&D</span>
+									<span class="skill-tag">FMEA</span>
+									<span class="skill-tag">APQP</span>
+									<span class="skill-tag">PPAP</span>
+								</div>
+							</div>
+							<div class="skill-category">
+								<h4>Qualidade & Normas</h4>
+								<div class="skill-tags">
+									<span class="skill-tag">ISO 9001</span>
+									<span class="skill-tag">API-6A</span>
+									<span class="skill-tag">CQI-9</span>
+									<span class="skill-tag">Auditor</span>
+								</div>
+							</div>
+							<div class="skill-category">
+								<h4>Software & Ferramentas</h4>
+								<div class="skill-tags">
+									<span class="skill-tag">SolidWorks</span>
+									<span class="skill-tag">Pacote Office</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-            <!-- Qualificações -->
-            <section class="section" id="qualificacoes">
-                <div class="section-header" onclick="toggleSection('qualificacoes')">
-                    <h2 class="section-title">
-                        <i class="fas fa-certificate"></i>
-                        Qualificações Adicionais
-                    </h2>
-                    <i class="fas fa-chevron-down toggle-icon"></i>
-                </div>
-                <div class="section-content">
-                    <div class="skills-grid">
-                        <div class="skill-category">
-                            <h4>Pesquisa & Desenvolvimento</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag">P&D</span>
-                                <span class="skill-tag">FMEA</span>
-                                <span class="skill-tag">APQP</span>
-                                <span class="skill-tag">PPAP</span>
-                            </div>
-                        </div>
-                        <div class="skill-category">
-                            <h4>Qualidade & Normas</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag">ISO 9001</span>
-                                <span class="skill-tag">API-6A</span>
-                                <span class="skill-tag">CQI-9</span>
-                                <span class="skill-tag">Auditor</span>
-                            </div>
-                        </div>
-                        <div class="skill-category">
-                            <h4>Software & Ferramentas</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag">SolidWorks</span>
-                                <span class="skill-tag">Pacote Office</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+				<!-- Idiomas -->
+				<section class="section" id="idiomas">
+					<div class="section-header" onclick="toggleSection('idiomas')">
+						<h2 class="section-title">
+							<i class="fas fa-language"></i>
+							Idiomas
+						</h2>
+						<i class="fas fa-chevron-down toggle-icon"></i>
+					</div>
+					<div class="section-content">
+						<div class="languages-grid">
+							<div class="language-item">
+								<h4>Inglês</h4>
+								<div class="language-level">
+									<span class="level-text">Fluente</span>
+									<div class="level-bar">
+										<div class="level-progress" style="width: 95%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="language-item">
+								<h4>Espanhol</h4>
+								<div class="language-level">
+									<span class="level-text">Básico</span>
+									<div class="level-bar">
+										<div class="level-progress" style="width: 30%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="language-item">
+								<h4>Português</h4>
+								<div class="language-level">
+									<span class="level-text">Nativo</span>
+									<div class="level-bar">
+										<div class="level-progress" style="width: 100%"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
 
-            <!-- Idiomas -->
-            <section class="section" id="idiomas">
-                <div class="section-header" onclick="toggleSection('idiomas')">
-                    <h2 class="section-title">
-                        <i class="fas fa-language"></i>
-                        Idiomas
-                    </h2>
-                    <i class="fas fa-chevron-down toggle-icon"></i>
-                </div>
-                <div class="section-content">
-                    <div class="languages-grid">
-                        <div class="language-item">
-                            <h4>Inglês</h4>
-                            <div class="language-level">
-                                <span class="level-text">Fluente</span>
-                                <div class="level-bar">
-                                    <div class="level-progress" style="width: 95%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="language-item">
-                            <h4>Espanhol</h4>
-                            <div class="language-level">
-                                <span class="level-text">Básico</span>
-                                <div class="level-bar">
-                                    <div class="level-progress" style="width: 30%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="language-item">
-                            <h4>Português</h4>
-                            <div class="language-level">
-                                <span class="level-text">Nativo</span>
-                                <div class="level-bar">
-                                    <div class="level-progress" style="width: 100%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<p>&copy; 2024 Magno Torres Carvalho. Todos os direitos reservados.</p>
+			</div>
+		</footer>
 
-        </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Magno Torres Carvalho. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="js/script.js"></script>
-</body>
+		<!-- Scripts -->
+		<script src="js/script.js"></script>
+	</body>
 </html>
