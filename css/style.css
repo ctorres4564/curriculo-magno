@@ -304,7 +304,7 @@ body {
 
 .section-content {
 	padding: 2rem;
-	max-height: 1000px;
+	max-height: 5000px;
 	overflow: hidden;
 	transition: all 0.3s ease;
 }
